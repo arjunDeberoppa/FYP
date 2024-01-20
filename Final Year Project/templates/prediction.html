@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audict</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form action="/submit" method="post">
+        <!-- 10 Questions with 1 or 0 as options -->
+        <label for="q1">Question 1:</label>
+        <input type="radio" name="q1" value="1"> Yes
+        <input type="radio" name="q1" value="0"> No
+        <br>
+
+        <label for="q2">Question 2:</label>
+        <input type="radio" name="q2" value="1"> Yes
+        <input type="radio" name="q2" value="0"> No
+        <br>
+
+        <label for="q3">Question 3:</label>
+        <input type="radio" name="q3" value="1"> Yes
+        <input type="radio" name="q3" value="0"> No
+        <br>
+
+        <!-- Repeat the structure for questions 4 through 10 -->
+        <label for="q4">Question 4:</label>
+        <input type="radio" name="q4" value="1"> Yes
+        <input type="radio" name="q4" value="0"> No
+        <br>
+
+        <label for="q5">Question 5:</label>
+        <input type="radio" name="q5" value="1"> Yes
+        <input type="radio" name="q5" value="0"> No
+        <br>
+
+        <label for="q6">Question 6:</label>
+        <input type="radio" name="q6" value="1"> Yes
+        <input type="radio" name="q6" value="0"> No
+        <br>
+
+        <label for="q7">Question 7:</label>
+        <input type="radio" name="q7" value="1"> Yes
+        <input type="radio" name="q7" value="0"> No
+        <br>
+
+        <label for="q8">Question 8:</label>
+        <input type="radio" name="q8" value="1"> Yes
+        <input type="radio" name="q8" value="0"> No
+        <br>
+
+        <label for="q9">Question 9:</label>
+        <input type="radio" name="q9" value="1"> Yes
+        <input type="radio" name="q9" value="0"> No
+        <br>
+
+        <label for="q10">Question 10:</label>
+        <input type="radio" name="q10" value="1"> Yes
+        <input type="radio" name="q10" value="0"> No
+        <br>
+
+        <!-- Repeat similar structure for the other 9 questions -->
+
+        <!-- Gender -->
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="f">Female</option>
+            <option value="m">Male</option>
+        </select>
+        <br>
+
+        <!-- Ethnicity -->
+        <label for="ethnicity">Ethnicity:</label>
+        <select id="ethnicity" name="ethnicity">
+            <option value="White-European">White-European</option>
+            <option value="Latino">Latino</option>
+            <option value="Others">Others</option>
+            <option value="Black">Black</option>
+            <option value="Asian">Asian</option>
+            <option value="Middle Eastern">Middle Eastern</option>
+            <option value="Pasifika">Pasifika</option>
+            <option value="South Asian">South Asian</option>
+            <option value="Hispanic">Hispanic</option>
+            <option value="Turkish">Turkish</option>
+            <option value="others">others</option>
+        </select>
+        <br>
+
+        <!-- Jundice -->
+        <label for="jundice">Jundice:</label>
+        <select id="jundice" name="jundice">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+        </select>
+        <br>
+
+        <!-- Austim -->
+        <label for="austim">Austim:</label>
+        <select id="austim" name="austim">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+        </select>
+        <br>
+
+        <!-- Country of Residence -->
+        <label for="country_of_res">Country of Residence:</label>
+        <select id="country_of_res" name="country_of_res">
+            <option value="United States">United States</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Spain">Spain</option>
+            <option value="Egypt">Egypt</option>
+            <option value="New Zealand">New Zealand</option>
+            <option value="Bahamas">Bahamas</option>
+            <option value="Burundi">Burundi</option>
+            <option value="Austria">Austria</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Jordan">Jordan</option>
+            <option value="Ireland">Ireland</option>
+            <option value="United Arab Emirates">United Arab Emirates</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Lebanon">Lebanon</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Italy">Italy</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Chile">Chile</option>
+            <option value="France">France</option>
+            <option value="China">China</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="Saudi Arabia">Saudi Arabia</option>
+            <option value="Netherlands">Netherlands</option>
+            <option value="Romania">Romania</option>
+            <option value="Sweden">Sweden</option>
+            <option value="Tonga">Tonga</option>
+            <option value="Oman">Oman</option>
+            <option value="India">India</option>
+            <option value="Philippines">Philippines</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="Sierra Leone">Sierra Leone</option>
+            <option value="Ethiopia">Ethiopia</option>
+            <option value="Viet Nam">Viet Nam</option>
+            <option value="Iran">Iran</option>
+            <option value="Costa Rica">Costa Rica</option>
+            <option value="Germany">Germany</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Russia">Russia</option>
+            <option value="Armenia">Armenia</option>
+            <option value="Iceland">Iceland</option>
+            <option value="Nicaragua">Nicaragua</option>
+            <option value="Hong Kong">Hong Kong</option>
+            <option value="Japan">Japan</option>
+            <option value="Ukraine">Ukraine</option>
+            <option value="Kazakhstan">Kazakhstan</option>
+            <option value="American Samoa">American Samoa</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Serbia">Serbia</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Ecuador">Ecuador</option>
+            <option value="Niger">Niger</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Aruba">Aruba</option>
+            <option value="Finland">Finland</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Angola">Angola</option>
+            <option value="Azerbaijan">Azerbaijan</option>
+            <option value="Iraq">Iraq</option>
+            <option value="Czech Republic">Czech Republic</option>
+            <option value="Cyprus">Cyprus</option>
+        </select>
+        <br>
+
+        <!-- Used App Before -->
+        <label for="used_app_before">Used App Before:</label>
+        <select id="used_app_before" name="used_app_before">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+        </select>
+        <br>
+
+        <!-- Relation -->
+        <!-- Relation -->
+        <label for="relation">Relation:</label>
+        <select id="relation" name="relation">
+            <option value="Self">Self</option>
+            <option value="Parent">Parent</option>
+            <option value="Health care professional">Health care professional</option>
+            <option value="Relative">Relative</option>
+            <option value="Others">Others</option>
+        </select>
+        <br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+        <h1>Result: {{ prediction }}</h1>
+    </form>
+</body>
+
+</html>
